@@ -2,7 +2,7 @@ import dotenv from 'dotenv';
 import { Request, Response, NextFunction } from 'express';
 import jwt from 'jsonwebtoken';
 
-dotenv.config(); // Carrega variáveis do .env
+dotenv.config();
 
 const secret = process.env.JWT_SECRET as string;
 
